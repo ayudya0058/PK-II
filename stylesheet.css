@@ -1,11 +1,21 @@
-h1{
+h1 {
   color:#e6855e;
   font-size:30px;
-  background-color:#f3f372
-  heigt:80px;
+  background-color:#f3f372;
+  height:80px;
   width:200px;
+
 }
-img{
+img {
   height:50px;
   width:70px;
+
+}
+
+li {
+  color:#444;
+}
+
+.selected{
+  color:#ff0000;
 }
