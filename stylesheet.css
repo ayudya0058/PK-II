@@ -21,14 +21,12 @@ img {
   height: 50px;
   width: 70px;
 }
-
 body {
   font-family: "Avenir Next";
 }
+
 li {
   list-style: none;
-  float: left;
-  padding: 33px 20px;
 }
 
 .header {
@@ -43,47 +41,45 @@ li {
   padding: 20px 40px;
 }
 
-.main {
-  background-color: #bdf7f1;
-  height: 600px;
-}
-.footer {
-  background-color: #ceccf3;
-  height: 270px;
-
-body {
-  font-family: "Avenir Next";
-}
-
-li {
-  list-style: none;
-  /* Pindahkan kedua baris di bawah ke sekitar baris 25 */
+.header-list li {
   float: left;
   padding: 33px 20px;
 }
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
-
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
-
-/* Tambahkan CSS tag <li> yang di atas ke dalam header-list */
-
-
 .main {
+  /* Hapuskan CSS background-color */
   background-color: #bdf7f1;
+  /* Hapuskan CSS height */
   height: 600px;
+  /* Ganti padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
+  
 }
+
+/* Ganti font-size tag <h1> di dalam copy-container */
+
+
+/* Ganti font-size tag <h2> di dalam copy-container */
+
+
+/* Ganti color tags <span> di dalam copy-container */
+
 
 .footer {
-  background-color: #ceccf3;
-  height: 270px;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
 }
 
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
