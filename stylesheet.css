@@ -27,15 +27,17 @@ li {
   padding: 100px 80px;
 }
 
-.copy-container h1 {
-  font-size: 140px;
-}
-.copy-container h2 {
-  font-size: 60px;
+.container {
+  width: 1170px;
+  padding:0 15px;
+  margin: 0 auto;
 }
 
-.copy-container span {
-  color: #ff4a4a;
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
 }
 
 .contents {
@@ -49,38 +51,33 @@ li {
   padding-bottom: 15px;
   margin-bottom: 50px;
 }
-
 .contents-item {
   float: left;
   margin-right: 40px;
-}	
+}
 
-.contents-item p {
+.contact-item p {
   font-size: 24px;
   margin-top: 30px;
 }
 
-.contact.form{
-  padding-top: 100px;            
-}            
+.contact-form {
+  padding-top: 100px;
+}
 
-input, textarea {            
-width: 400px;            
-margin-top: 10px;            
-margin-bottom: 30px;         
-padding: 20px;            
-font-size: 18px;            
-border: 1px solid #dee7ec;            
-}            
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
 
-.contact-submit {            
-background-color: #dee7ec;            
-color: #889eab;            
-}            
-.footer {            
-background-color: #2f5167;            color: #fff;            
-height: 120px;
-
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
 .footer {
   background-color: #2f5167;
   color: #fff;
@@ -99,4 +96,4 @@ height: 120px;
 
 .footer-list li {
   padding-bottom: 20px;
-}                              
+}
