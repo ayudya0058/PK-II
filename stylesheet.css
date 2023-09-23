@@ -154,6 +154,7 @@ header {
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
+  background-color : rgb(194, 242, 248);
   padding-bottom: 80px;
   text-align: center;
 }
@@ -211,6 +212,7 @@ li {
 
 .main {
   padding: 100px 80px;
+  background-color: rgb(151, 201, 247);
 }
 
 .copy-container h1 {
