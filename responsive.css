@@ -1,0 +1,24 @@
+/*/Untuk Tablet*/
+@media all and (max-width: 100px)
+.lesson{
+  width: 50%;
+  margin-bottom:50px
+}
+.top-wrapper h1{
+  font-size: 32px;
+}
+.heading h2{
+  font-size: 20px;
+}
+.lesson-wrappe {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: 
+  text-align: center;
+}
+.lesson{
+  float: left;
+  width: 25%;
+}
